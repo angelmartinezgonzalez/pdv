@@ -1,2 +1,2 @@
 # pdv
-Punto de venta cono soporte a cfdi 3.3
+Punto de venta con soporte a cfdi 3.3
