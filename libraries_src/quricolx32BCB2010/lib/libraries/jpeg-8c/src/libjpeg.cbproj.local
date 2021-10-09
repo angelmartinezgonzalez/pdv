@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2019/05/01 17:34:48.058.cbproj,C:\Users\gdmx\Documents\RAD Studio\Projects\Project1.cbproj=C:\devc\bcb2010\quricolx32BCB2010\lib\libraries\jpeg-8c\src\libjpeg.cbproj</Transaction>
+    <Transaction>2019/05/01 17:36:34.945.c,C:\devc\bcb2010\quricolx32BCB2010\lib\libraries\jpeg-8c\src\example.c=</Transaction>
+    <Transaction>2019/05/01 17:38:31.667.c,C:\devc\bcb2010\quricolx32BCB2010\lib\libraries\jpeg-8c\src\jmemdos.c=</Transaction>
+    <Transaction>2019/05/01 17:39:18.861.c,C:\devc\bcb2010\quricolx32BCB2010\lib\libraries\jpeg-8c\src\jmemmac.c=</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{E84993B6-7D75-4F85-A8BB-1A36BB53E24E}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="..\ImportAletra2\ImporteALetra2.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ImporteALetra3.cbproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ImporteALetra2">
+        <MSBuild Projects="..\ImportAletra2\ImporteALetra2.cbproj"/>
+    </Target>
+    <Target Name="ImporteALetra2:Clean">
+        <MSBuild Projects="..\ImportAletra2\ImporteALetra2.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ImporteALetra2:Make">
+        <MSBuild Projects="..\ImportAletra2\ImporteALetra2.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="ImporteALetra3">
+        <MSBuild Projects="ImporteALetra3.cbproj"/>
+    </Target>
+    <Target Name="ImporteALetra3:Clean">
+        <MSBuild Projects="ImporteALetra3.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ImporteALetra3:Make">
+        <MSBuild Projects="ImporteALetra3.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ImporteALetra2;ImporteALetra3"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ImporteALetra2:Clean;ImporteALetra3:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ImporteALetra2:Make;ImporteALetra3:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

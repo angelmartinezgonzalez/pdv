@@ -1,0 +1,7 @@
+crea una base de datos
+USER 'SYSDBA' PASSWORD '**********'
+PAGE_SIZE 16384
+DEFAULT CHARACTER SET UTF8;
+asi soportra caracteres chinos y rusos y latinos con enie y acentos.
+
+

@@ -1,0 +1,17 @@
+copiar archivos h y c 
+de 
+zlib-1.2.5
+a
+
+zlib-1.2.5\win32
+
+ir por linea de comando
+
+
+zlib-1.2.5\win32
+
+
+
+ejecutar el comando 
+
+make -f Makefile.bor

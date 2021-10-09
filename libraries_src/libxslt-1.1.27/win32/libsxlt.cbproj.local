@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/05/03 10:50:59.923.cbproj,C:\Users\axdev\Documents\RAD Studio\Projects\Project1.cbproj=C:\bcb10\libxslt-1.1.27\win32\libsxlt.cbproj</Transaction>
+    <Transaction>2021/05/03 11:41:15.100.lib,C:\bcb10\libxslt-1.1.27\win32\libxml2_a.lib=</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,27 @@
+
+para la libreria lib
+
+copiar los archivos de openssl y zlib
+
+
+al directorio
+cd curl-7.54.1_consola
+
+openssl-1.0.2q-cppbuilderwin32_lib
+zlib-1.2.11Binarioswin32_libConsola
+
+
+cambiar al direcotrio
+cd curl-7.54.1_consola\lib
+
+ejecutar 
+make -f Makefile.b32
+
+
+para la el archivo exe curl.
+
+cd curl-7.54.1_consola\src
+
+
+ejecutar 
+make -f Makefile.b32

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2020/04/30 17:58:28.518.c,C:\Users\angelo\Documents\RAD Studio\Projects\File1.c=C:\dev\cppbuilder2010\librerias\curl-7.54.1_ide\miapp\src\File1.c</Transaction>
+    <Transaction>2020/04/30 17:58:32.270.cbproj,C:\Users\angelo\Documents\RAD Studio\Projects\Project2.cbproj=C:\dev\cppbuilder2010\librerias\curl-7.54.1_ide\miapp\src\miapp.cbproj</Transaction>
+    <Transaction>2020/04/30 18:04:12.790.h,C:\dev\cppbuilder2010\librerias\curl-7.54.1_ide\curlexe\include\config-win32.h=</Transaction>
+    <Transaction>2020/04/30 18:04:12.799.h,C:\dev\cppbuilder2010\librerias\curl-7.54.1_ide\curlexe\include\curlx.h=</Transaction>
+    <Transaction>2020/04/30 18:04:12.800.h,C:\dev\cppbuilder2010\librerias\curl-7.54.1_ide\curlexe\include\curl_setup.h=</Transaction>
+    <Transaction>2020/04/30 18:04:12.800.h,C:\dev\cppbuilder2010\librerias\curl-7.54.1_ide\curlexe\include\curl_setup_once.h=</Transaction>
+    <Transaction>2020/04/30 18:04:12.801.h,C:\dev\cppbuilder2010\librerias\curl-7.54.1_ide\curlexe\include\memdebug.h=</Transaction>
+    <Transaction>2020/04/30 18:04:12.801.h,C:\dev\cppbuilder2010\librerias\curl-7.54.1_ide\curlexe\include\nonblock.h=</Transaction>
+    <Transaction>2020/04/30 18:04:12.802.h,C:\dev\cppbuilder2010\librerias\curl-7.54.1_ide\curlexe\include\strcase.h=</Transaction>
+    <Transaction>2020/04/30 18:04:12.802.h,C:\dev\cppbuilder2010\librerias\curl-7.54.1_ide\curlexe\include\strtoofft.h=</Transaction>
+    <Transaction>2020/04/30 18:04:12.802.h,C:\dev\cppbuilder2010\librerias\curl-7.54.1_ide\curlexe\include\timeval.h=</Transaction>
+    <Transaction>2020/04/30 18:04:12.803.h,C:\dev\cppbuilder2010\librerias\curl-7.54.1_ide\curlexe\include\warnless.h=</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,10 @@
+cd C:\bcb10\libxslt-1.1.27\win32
+
+ 
+se usa ide para construir los proyectos
+
+si da error de nano
+agregar 
+C:\Program Files (x86)\Embarcadero\RAD Studio\7.0\lib\ws2_32.lib
+
+

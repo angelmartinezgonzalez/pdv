@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2020/04/07 15:50:24.185.groupproj,C:\Users\gdmxxx\Documents\RAD Studio\Projects\ProjectGroup1.groupproj=C:\dev\cppbuilder2010\librerias\zlib\zlib-1.2.11_lib_IDE\zlib1211_lib\zlib1211_lib_bcb2010.groupproj</Transaction>
+  </Transactions>
+  <Default.Personality>
+    <Projects ActiveProject="example.exe"/>
+  </Default.Personality>
+</BorlandProject>

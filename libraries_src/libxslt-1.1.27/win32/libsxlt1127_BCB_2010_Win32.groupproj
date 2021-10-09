@@ -1,0 +1,60 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{275A3E48-D7B6-4646-97F8-9C14939CC40A}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="libsxlt.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="libexslt.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\xsltproc\xsltproc.cbproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="libsxlt">
+			<MSBuild Projects="libsxlt.cbproj"/>
+		</Target>
+		<Target Name="libsxlt:Clean">
+			<MSBuild Targets="Clean" Projects="libsxlt.cbproj"/>
+		</Target>
+		<Target Name="libsxlt:Make">
+			<MSBuild Targets="Make" Projects="libsxlt.cbproj"/>
+		</Target>
+		<Target Name="libexslt">
+			<MSBuild Projects="libexslt.cbproj"/>
+		</Target>
+		<Target Name="libexslt:Clean">
+			<MSBuild Targets="Clean" Projects="libexslt.cbproj"/>
+		</Target>
+		<Target Name="libexslt:Make">
+			<MSBuild Targets="Make" Projects="libexslt.cbproj"/>
+		</Target>
+		<Target Name="xsltproc">
+			<MSBuild Projects="..\xsltproc\xsltproc.cbproj"/>
+		</Target>
+		<Target Name="xsltproc:Clean">
+			<MSBuild Targets="Clean" Projects="..\xsltproc\xsltproc.cbproj"/>
+		</Target>
+		<Target Name="xsltproc:Make">
+			<MSBuild Targets="Make" Projects="..\xsltproc\xsltproc.cbproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="libsxlt;libexslt;xsltproc"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="libsxlt:Clean;libexslt:Clean;xsltproc:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="libsxlt:Make;libexslt:Make;xsltproc:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

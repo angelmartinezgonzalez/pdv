@@ -1,0 +1,48 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{5C10CB99-3DC5-4D78-BD9C-B305AD22CBA6}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="libjpeg.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="cjpeg.cbproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="libjpeg">
+			<MSBuild Projects="libjpeg.cbproj"/>
+		</Target>
+		<Target Name="libjpeg:Clean">
+			<MSBuild Targets="Clean" Projects="libjpeg.cbproj"/>
+		</Target>
+		<Target Name="libjpeg:Make">
+			<MSBuild Targets="Make" Projects="libjpeg.cbproj"/>
+		</Target>
+		<Target Name="cjpeg">
+			<MSBuild Projects="cjpeg.cbproj"/>
+		</Target>
+		<Target Name="cjpeg:Clean">
+			<MSBuild Targets="Clean" Projects="cjpeg.cbproj"/>
+		</Target>
+		<Target Name="cjpeg:Make">
+			<MSBuild Targets="Make" Projects="cjpeg.cbproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="libjpeg;cjpeg"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="libjpeg:Clean;cjpeg:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="libjpeg:Make;cjpeg:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

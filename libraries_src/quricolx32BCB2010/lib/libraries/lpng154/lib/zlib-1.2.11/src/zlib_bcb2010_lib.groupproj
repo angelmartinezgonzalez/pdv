@@ -1,0 +1,168 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{E89CB19E-5449-48D1-BC26-7D7525AB4864}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="zlib1.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\examples\enough.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\examples\fitblk.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\examples\gun.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\examples\gzappend.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\examples\gzjoin.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\examples\gzlog.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\examples\zpipe.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\examples\zran.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\test\example.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\test\infcover.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\test\minigzip.cbproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="zlib1">
+			<MSBuild Projects="zlib1.cbproj"/>
+		</Target>
+		<Target Name="zlib1:Clean">
+			<MSBuild Targets="Clean" Projects="zlib1.cbproj"/>
+		</Target>
+		<Target Name="zlib1:Make">
+			<MSBuild Targets="Make" Projects="zlib1.cbproj"/>
+		</Target>
+		<Target Name="enough">
+			<MSBuild Projects="..\examples\enough.cbproj"/>
+		</Target>
+		<Target Name="enough:Clean">
+			<MSBuild Targets="Clean" Projects="..\examples\enough.cbproj"/>
+		</Target>
+		<Target Name="enough:Make">
+			<MSBuild Targets="Make" Projects="..\examples\enough.cbproj"/>
+		</Target>
+		<Target Name="fitblk">
+			<MSBuild Projects="..\examples\fitblk.cbproj"/>
+		</Target>
+		<Target Name="fitblk:Clean">
+			<MSBuild Targets="Clean" Projects="..\examples\fitblk.cbproj"/>
+		</Target>
+		<Target Name="fitblk:Make">
+			<MSBuild Targets="Make" Projects="..\examples\fitblk.cbproj"/>
+		</Target>
+		<Target Name="gun">
+			<MSBuild Projects="..\examples\gun.cbproj"/>
+		</Target>
+		<Target Name="gun:Clean">
+			<MSBuild Targets="Clean" Projects="..\examples\gun.cbproj"/>
+		</Target>
+		<Target Name="gun:Make">
+			<MSBuild Targets="Make" Projects="..\examples\gun.cbproj"/>
+		</Target>
+		<Target Name="gzappend">
+			<MSBuild Projects="..\examples\gzappend.cbproj"/>
+		</Target>
+		<Target Name="gzappend:Clean">
+			<MSBuild Targets="Clean" Projects="..\examples\gzappend.cbproj"/>
+		</Target>
+		<Target Name="gzappend:Make">
+			<MSBuild Targets="Make" Projects="..\examples\gzappend.cbproj"/>
+		</Target>
+		<Target Name="gzjoin">
+			<MSBuild Projects="..\examples\gzjoin.cbproj"/>
+		</Target>
+		<Target Name="gzjoin:Clean">
+			<MSBuild Targets="Clean" Projects="..\examples\gzjoin.cbproj"/>
+		</Target>
+		<Target Name="gzjoin:Make">
+			<MSBuild Targets="Make" Projects="..\examples\gzjoin.cbproj"/>
+		</Target>
+		<Target Name="gzlog">
+			<MSBuild Projects="..\examples\gzlog.cbproj"/>
+		</Target>
+		<Target Name="gzlog:Clean">
+			<MSBuild Targets="Clean" Projects="..\examples\gzlog.cbproj"/>
+		</Target>
+		<Target Name="gzlog:Make">
+			<MSBuild Targets="Make" Projects="..\examples\gzlog.cbproj"/>
+		</Target>
+		<Target Name="zpipe">
+			<MSBuild Projects="..\examples\zpipe.cbproj"/>
+		</Target>
+		<Target Name="zpipe:Clean">
+			<MSBuild Targets="Clean" Projects="..\examples\zpipe.cbproj"/>
+		</Target>
+		<Target Name="zpipe:Make">
+			<MSBuild Targets="Make" Projects="..\examples\zpipe.cbproj"/>
+		</Target>
+		<Target Name="zran">
+			<MSBuild Projects="..\examples\zran.cbproj"/>
+		</Target>
+		<Target Name="zran:Clean">
+			<MSBuild Targets="Clean" Projects="..\examples\zran.cbproj"/>
+		</Target>
+		<Target Name="zran:Make">
+			<MSBuild Targets="Make" Projects="..\examples\zran.cbproj"/>
+		</Target>
+		<Target Name="example">
+			<MSBuild Projects="..\test\example.cbproj"/>
+		</Target>
+		<Target Name="example:Clean">
+			<MSBuild Targets="Clean" Projects="..\test\example.cbproj"/>
+		</Target>
+		<Target Name="example:Make">
+			<MSBuild Targets="Make" Projects="..\test\example.cbproj"/>
+		</Target>
+		<Target Name="infcover">
+			<MSBuild Projects="..\test\infcover.cbproj"/>
+		</Target>
+		<Target Name="infcover:Clean">
+			<MSBuild Targets="Clean" Projects="..\test\infcover.cbproj"/>
+		</Target>
+		<Target Name="infcover:Make">
+			<MSBuild Targets="Make" Projects="..\test\infcover.cbproj"/>
+		</Target>
+		<Target Name="minigzip">
+			<MSBuild Projects="..\test\minigzip.cbproj"/>
+		</Target>
+		<Target Name="minigzip:Clean">
+			<MSBuild Targets="Clean" Projects="..\test\minigzip.cbproj"/>
+		</Target>
+		<Target Name="minigzip:Make">
+			<MSBuild Targets="Make" Projects="..\test\minigzip.cbproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="zlib1;enough;fitblk;gun;gzappend;gzjoin;gzlog;zpipe;zran;example;infcover;minigzip"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="zlib1:Clean;enough:Clean;fitblk:Clean;gun:Clean;gzappend:Clean;gzjoin:Clean;gzlog:Clean;zpipe:Clean;zran:Clean;example:Clean;infcover:Clean;minigzip:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="zlib1:Make;enough:Make;fitblk:Make;gun:Make;gzappend:Make;gzjoin:Make;gzlog:Make;zpipe:Make;zran:Make;example:Make;infcover:Make;minigzip:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

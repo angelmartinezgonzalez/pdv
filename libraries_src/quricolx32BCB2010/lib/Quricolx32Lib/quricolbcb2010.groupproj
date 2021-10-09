@@ -1,0 +1,48 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{8514C858-451D-4626-960A-6C73AF83E447}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="src\quricol.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\TestQuricolx32Lib\src\Project1.cbproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="quricol">
+			<MSBuild Projects="src\quricol.cbproj"/>
+		</Target>
+		<Target Name="quricol:Clean">
+			<MSBuild Targets="Clean" Projects="src\quricol.cbproj"/>
+		</Target>
+		<Target Name="quricol:Make">
+			<MSBuild Targets="Make" Projects="src\quricol.cbproj"/>
+		</Target>
+		<Target Name="Project1">
+			<MSBuild Projects="..\TestQuricolx32Lib\src\Project1.cbproj"/>
+		</Target>
+		<Target Name="Project1:Clean">
+			<MSBuild Targets="Clean" Projects="..\TestQuricolx32Lib\src\Project1.cbproj"/>
+		</Target>
+		<Target Name="Project1:Make">
+			<MSBuild Targets="Make" Projects="..\TestQuricolx32Lib\src\Project1.cbproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="quricol;Project1"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="quricol:Clean;Project1:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="quricol:Make;Project1:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

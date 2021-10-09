@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2021/09/08 17:10:52.482.cpp,C:\Users\axdev\Documents\RAD Studio\Projects\Unit1.cpp=C:\dev\cppbuilder2010\proyectos\pdv\apoyos\pruebabdconexionfiredac\IbdacConexionU.cpp</Transaction>
+    <Transaction>2021/09/08 17:10:52.482.h,C:\Users\axdev\Documents\RAD Studio\Projects\Unit1.h=C:\dev\cppbuilder2010\proyectos\pdv\apoyos\pruebabdconexionfiredac\IbdacConexionU.h</Transaction>
+    <Transaction>2021/09/08 17:10:52.482.dfm,C:\Users\axdev\Documents\RAD Studio\Projects\Unit1.dfm=C:\dev\cppbuilder2010\proyectos\pdv\apoyos\pruebabdconexionfiredac\IbdacConexionU.dfm</Transaction>
+    <Transaction>2021/09/08 17:10:54.287.cbproj,C:\Users\axdev\Documents\RAD Studio\Projects\Project1.cbproj=C:\dev\cppbuilder2010\proyectos\pdv\apoyos\pruebabdconexionfiredac\IbdacConexion.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,60 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{EF90A7DF-018C-4611-AE17-82F39D1C0308}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="zlib.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\zlib1211_lib_examples\example.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\zlib1211_lib_examples\minigzip.cbproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="zlib">
+			<MSBuild Projects="zlib.cbproj"/>
+		</Target>
+		<Target Name="zlib:Clean">
+			<MSBuild Targets="Clean" Projects="zlib.cbproj"/>
+		</Target>
+		<Target Name="zlib:Make">
+			<MSBuild Targets="Make" Projects="zlib.cbproj"/>
+		</Target>
+		<Target Name="example">
+			<MSBuild Projects="..\zlib1211_lib_examples\example.cbproj"/>
+		</Target>
+		<Target Name="example:Clean">
+			<MSBuild Targets="Clean" Projects="..\zlib1211_lib_examples\example.cbproj"/>
+		</Target>
+		<Target Name="example:Make">
+			<MSBuild Targets="Make" Projects="..\zlib1211_lib_examples\example.cbproj"/>
+		</Target>
+		<Target Name="minigzip">
+			<MSBuild Projects="..\zlib1211_lib_examples\minigzip.cbproj"/>
+		</Target>
+		<Target Name="minigzip:Clean">
+			<MSBuild Targets="Clean" Projects="..\zlib1211_lib_examples\minigzip.cbproj"/>
+		</Target>
+		<Target Name="minigzip:Make">
+			<MSBuild Targets="Make" Projects="..\zlib1211_lib_examples\minigzip.cbproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="zlib;example;minigzip"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="zlib:Clean;example:Clean;minigzip:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="zlib:Make;example:Make;minigzip:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

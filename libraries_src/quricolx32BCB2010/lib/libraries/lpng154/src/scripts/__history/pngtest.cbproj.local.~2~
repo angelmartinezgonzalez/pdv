@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/07/06 12:18:15.000.488,=C:\Users\ANGELO\Documents\RAD Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2017/07/06 12:18:15.000.376,=C:\Users\ANGELO\Documents\RAD Studio\Projects\Project1.res</Transaction>
+    <Transaction>2017/09/10 16:52:05.000.700,=C:\Users\ANGELO\Documents\RAD Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2017/09/10 16:52:05.000.628,=C:\Users\ANGELO\Documents\RAD Studio\Projects\Project1.res</Transaction>
+    <Transaction>2017/09/10 19:39:44.000.674,=C:\dev\daxs\qrcodebcbxe\quricol\lib\libraries\lpng154\src\scripts\pngtest.c</Transaction>
+    <Transaction>2017/09/10 19:40:27.000.920,C:\dev\daxs\qrcodebcbxe\quricol\lib\libraries\lpng154\src\scripts\pngtest.cbproj=C:\Users\ANGELO\Documents\RAD Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>2017/09/10 19:40:36.000.051,=C:\dev\daxs\qrcodebcbxe\quricol\lib\libraries\lpng154\lib\libpng.lib</Transaction>
+    <Transaction>2017/09/10 19:40:44.000.785,=C:\dev\daxs\qrcodebcbxe\quricol\lib\libraries\lpng154\lib\zlib\zlib1.lib</Transaction>
+  </Transactions>
+</BorlandProject>

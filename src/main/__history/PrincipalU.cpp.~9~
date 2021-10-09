@@ -1,0 +1,30 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "PrincipalU.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TPrincipalF *PrincipalF;
+//---------------------------------------------------------------------------
+__fastcall TPrincipalF::TPrincipalF(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TPrincipalF::FormCreate(TObject *Sender)
+{
+	PrincipalF->WindowState = wsMaximized;
+
+
+}
+//---------------------------------------------------------------------------
+void __fastcall TPrincipalF::FormResize(TObject *Sender)
+{
+   //	PanelLogin->Left = (Screen->Width % 2) - PanelLogin->Width % 2;
+   //	PanelLogin->Top  = (Screen->Height % 2) - PanelLogin->Height % 2;
+}
+//---------------------------------------------------------------------------
+

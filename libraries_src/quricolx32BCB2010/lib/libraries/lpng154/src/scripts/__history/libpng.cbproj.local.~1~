@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/12/25 20:06:22.000.122,=C:\Users\ANGELO\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2016/12/25 20:06:22.000.201,=C:\Users\ANGELO\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2016/12/26 00:05:10.000.809,=C:\Users\ANGELO\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2016/12/26 00:05:10.000.892,=C:\Users\ANGELO\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2016/12/27 21:34:06.000.518,=C:\Users\ANGELO\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2016/12/27 21:34:06.000.498,=C:\Users\ANGELO\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2017/07/06 12:42:42.000.967,=C:\Users\ANGELO\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2017/07/06 12:42:44.000.158,=C:\Users\ANGELO\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2017/07/06 18:11:09.000.936,=C:\Users\ANGELO\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2017/07/06 18:11:09.000.909,=C:\Users\ANGELO\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2017/07/06 19:36:30.000.898,=C:\Users\ANGELO\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2017/07/06 19:36:30.000.714,=C:\Users\ANGELO\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2017/07/11 20:48:50.000.959,C:\Users\ANGELO\Documents\Embarcadero\Studio\Projects\Project1.cbproj=C:\dev\daxs\bcbxe6\lpng154\scripts\libpng.cbproj</Transaction>
+    <Transaction>2017/07/11 20:49:15.000.689,=C:\dev\daxs\bcbxe6\lpng154\zlib\lib\zlib.lib</Transaction>
+    <Transaction>2017/07/11 20:51:15.000.229,=C:\dev\daxs\bcbxe6\lpng154\scripts\pngmem.c</Transaction>
+    <Transaction>2017/07/11 20:51:15.000.664,=C:\dev\daxs\bcbxe6\lpng154\scripts\pngwrite.c</Transaction>
+    <Transaction>2017/07/11 20:51:15.000.700,=C:\dev\daxs\bcbxe6\lpng154\scripts\pngwtran.c</Transaction>
+    <Transaction>2017/07/11 20:51:15.000.526,=C:\dev\daxs\bcbxe6\lpng154\scripts\pngtest.c</Transaction>
+    <Transaction>2017/07/11 20:51:15.000.596,=C:\dev\daxs\bcbxe6\lpng154\scripts\pngwio.c</Transaction>
+    <Transaction>2017/07/11 20:51:15.000.279,=C:\dev\daxs\bcbxe6\lpng154\scripts\pngread.c</Transaction>
+    <Transaction>2017/07/11 20:51:15.000.130,=C:\dev\daxs\bcbxe6\lpng154\scripts\png.c</Transaction>
+    <Transaction>2017/07/11 20:51:15.000.299,=C:\dev\daxs\bcbxe6\lpng154\scripts\pngrio.c</Transaction>
+    <Transaction>2017/07/11 20:51:15.000.350,=C:\dev\daxs\bcbxe6\lpng154\scripts\pngrtran.c</Transaction>
+    <Transaction>2017/07/11 20:51:15.000.238,=C:\dev\daxs\bcbxe6\lpng154\scripts\pngpread.c</Transaction>
+    <Transaction>2017/07/11 20:51:15.000.174,=C:\dev\daxs\bcbxe6\lpng154\scripts\pngerror.c</Transaction>
+    <Transaction>2017/07/11 20:51:15.000.562,=C:\dev\daxs\bcbxe6\lpng154\scripts\pngtrans.c</Transaction>
+    <Transaction>2017/07/11 20:51:15.000.435,=C:\dev\daxs\bcbxe6\lpng154\scripts\pngrutil.c</Transaction>
+    <Transaction>2017/07/11 20:51:15.000.833,=C:\dev\daxs\bcbxe6\lpng154\scripts\pngwutil.c</Transaction>
+    <Transaction>2017/07/11 20:51:15.000.190,=C:\dev\daxs\bcbxe6\lpng154\scripts\pngget.c</Transaction>
+    <Transaction>2017/07/11 20:51:15.000.476,=C:\dev\daxs\bcbxe6\lpng154\scripts\pngset.c</Transaction>
+    <Transaction>2017/07/11 20:54:28.000.576,C:\dev\daxs\bcbxe6\lpng154\scripts\pngtest.c=</Transaction>
+    <Transaction>2017/09/10 21:03:55.000.306,C:\dev\daxs\qrcodebcbxe\quricol\lib\libraries\lpng154\src\zlib\lib\zlib.lib=</Transaction>
+    <Transaction>2017/09/10 21:04:03.000.593,=C:\dev\daxs\qrcodebcbxe\quricol\lib\libraries\lpng154\lib\zlib\zlib1.lib</Transaction>
+    <Transaction>2017/09/10 21:40:29.000.701,C:\dev\daxs\qrcodebcbxe\quricol\lib\libraries\lpng154\lib\zlib\zlib1.lib=</Transaction>
+    <Transaction>2017/09/10 21:40:39.000.820,=C:\dev\daxs\qrcodebcbxe\quricol\lib\src\lib\zlib-1.2.5\zlib1.lib</Transaction>
+    <Transaction>2017/09/10 21:41:44.000.914,=C:\dev\daxs\qrcodebcbxe\quricol\lib\src\lib\lpng154\libpng.lib</Transaction>
+    <Transaction>2017/09/10 21:41:58.000.735,C:\dev\daxs\qrcodebcbxe\quricol\lib\src\lib\lpng154\libpng.lib=</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/05/04 00:20:56.592.groupproj,C:\Users\gdmx\Documents\RAD Studio\Projects\ProjectGroup1.groupproj=C:\devc\bcb2010\quricolx32BCB2010\lib\Quricolx32Lib\quricolbcb2010.groupproj</Transaction>
+  </Transactions>
+	<Default.Personality>
+		<Projects ActiveProject="Project1.exe"/>
+	</Default.Personality>
+</BorlandProject>

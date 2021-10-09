@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2019/04/20 17:36:24.260.groupproj,C:\Users\gdmx\Documents\RAD Studio\Projects\ProjectGroup1.groupproj=C:\devc\bcb2010\zlib-1.2.11\src\zlib_bcb2010_lib.groupproj</Transaction>
+  </Transactions>
+  <Default.Personality>
+    <Projects ActiveProject="infcover.exe"/>
+  </Default.Personality>
+</BorlandProject>

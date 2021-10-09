@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2019/05/03 23:29:21.123.cbproj,C:\Users\gdmx\Documents\RAD Studio\Projects\Project1.cbproj=C:\devc\bcb2010\quricolx32BCB2010\lib\Quricolx32Lib\src\quricol.cbproj</Transaction>
+    <Transaction>2019/05/03 23:46:53.932.cpp,C:\devc\bcb2010\quricolx32BCB2010\lib\Quricolx32Lib\src\qrenc.cpp=</Transaction>
+    <Transaction>2019/05/04 00:23:22.019.cpp,C:\devc\bcb2010\quricolx32BCB2010\lib\Quricolx32Lib\src\bitmaps.cpp=</Transaction>
+    <Transaction>2019/05/04 00:23:22.021.h,C:\devc\bcb2010\quricolx32BCB2010\lib\Quricolx32Lib\src\bitmaps.h=</Transaction>
+    <Transaction>2019/05/04 00:23:22.023.cpp,C:\devc\bcb2010\quricolx32BCB2010\lib\Quricolx32Lib\src\bitstream.cpp=</Transaction>
+    <Transaction>2019/05/04 00:23:22.025.h,C:\devc\bcb2010\quricolx32BCB2010\lib\Quricolx32Lib\src\bitstream.h=</Transaction>
+    <Transaction>2019/05/04 00:23:22.026.cpp,C:\devc\bcb2010\quricolx32BCB2010\lib\Quricolx32Lib\src\dllmain.cpp=</Transaction>
+    <Transaction>2019/05/04 00:23:22.027.cpp,C:\devc\bcb2010\quricolx32BCB2010\lib\Quricolx32Lib\src\mask.cpp=</Transaction>
+    <Transaction>2019/05/04 00:23:22.028.h,C:\devc\bcb2010\quricolx32BCB2010\lib\Quricolx32Lib\src\mask.h=</Transaction>
+    <Transaction>2019/05/04 00:23:22.030.cpp,C:\devc\bcb2010\quricolx32BCB2010\lib\Quricolx32Lib\src\mmask.cpp=</Transaction>
+    <Transaction>2019/05/04 00:23:22.031.h,C:\devc\bcb2010\quricolx32BCB2010\lib\Quricolx32Lib\src\mmask.h=</Transaction>
+    <Transaction>2019/05/04 00:23:22.032.cpp,C:\devc\bcb2010\quricolx32BCB2010\lib\Quricolx32Lib\src\mqrspec.cpp=</Transaction>
+    <Transaction>2019/05/04 00:23:22.033.h,C:\devc\bcb2010\quricolx32BCB2010\lib\Quricolx32Lib\src\mqrspec.h=</Transaction>
+    <Transaction>2019/05/04 00:23:22.034.cpp,C:\devc\bcb2010\quricolx32BCB2010\lib\Quricolx32Lib\src\qrencode.cpp=</Transaction>
+    <Transaction>2019/05/04 00:23:22.035.h,C:\devc\bcb2010\quricolx32BCB2010\lib\Quricolx32Lib\src\qrencode.h=</Transaction>
+    <Transaction>2019/05/04 00:23:22.036.h,C:\devc\bcb2010\quricolx32BCB2010\lib\Quricolx32Lib\src\qrencode_inner.h=</Transaction>
+    <Transaction>2019/05/04 00:23:22.038.cpp,C:\devc\bcb2010\quricolx32BCB2010\lib\Quricolx32Lib\src\qrinput.cpp=</Transaction>
+    <Transaction>2019/05/04 00:23:22.040.h,C:\devc\bcb2010\quricolx32BCB2010\lib\Quricolx32Lib\src\qrinput.h=</Transaction>
+    <Transaction>2019/05/04 00:23:22.041.cpp,C:\devc\bcb2010\quricolx32BCB2010\lib\Quricolx32Lib\src\qrspec.cpp=</Transaction>
+    <Transaction>2019/05/04 00:23:22.042.h,C:\devc\bcb2010\quricolx32BCB2010\lib\Quricolx32Lib\src\qrspec.h=</Transaction>
+    <Transaction>2019/05/04 00:23:22.043.h,C:\devc\bcb2010\quricolx32BCB2010\lib\Quricolx32Lib\src\quricol_internal.h=</Transaction>
+    <Transaction>2019/05/04 00:23:22.044.h,C:\devc\bcb2010\quricolx32BCB2010\lib\Quricolx32Lib\src\resource.h=</Transaction>
+    <Transaction>2019/05/04 00:23:22.045.h,C:\devc\bcb2010\quricolx32BCB2010\lib\Quricolx32Lib\src\rscode.h=</Transaction>
+    <Transaction>2019/05/04 00:23:22.046.h,C:\devc\bcb2010\quricolx32BCB2010\lib\Quricolx32Lib\src\split.h=</Transaction>
+    <Transaction>2019/05/04 00:23:22.048.h,C:\devc\bcb2010\quricolx32BCB2010\lib\Quricolx32Lib\src\stdafx.h=</Transaction>
+    <Transaction>2019/05/04 00:23:22.049.h,C:\devc\bcb2010\quricolx32BCB2010\lib\Quricolx32Lib\src\targetver.h=</Transaction>
+    <Transaction>2019/05/04 00:26:23.111.cpp,C:\devc\bcb2010\quricolx32BCB2010\lib\Quricolx32Lib\src\Unit2.cpp=C:\devc\bcb2010\quricolx32BCB2010\lib\Quricolx32Lib\src\quricol.cpp</Transaction>
+    <Transaction>2019/05/04 00:26:23.111.h,C:\devc\bcb2010\quricolx32BCB2010\lib\Quricolx32Lib\src\Unit2.h=C:\devc\bcb2010\quricolx32BCB2010\lib\Quricolx32Lib\src\quricol.h</Transaction>
+  </Transactions>
+</BorlandProject>

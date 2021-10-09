@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/09/22 00:34:07.444.cpp,C:\Users\gdmx\Documents\RAD Studio\Projects\Unit1.cpp=C:\des\bcb2010\proyectos\pdv\src\principal\PrincipalForm.cpp</Transaction>
+    <Transaction>2019/09/22 00:34:07.444.h,C:\Users\gdmx\Documents\RAD Studio\Projects\Unit1.h=C:\des\bcb2010\proyectos\pdv\src\principal\PrincipalForm.h</Transaction>
+    <Transaction>2019/09/22 00:34:07.444.dfm,C:\Users\gdmx\Documents\RAD Studio\Projects\Unit1.dfm=C:\des\bcb2010\proyectos\pdv\src\principal\PrincipalForm.dfm</Transaction>
+    <Transaction>2019/09/22 00:34:19.725.cbproj,C:\Users\gdmx\Documents\RAD Studio\Projects\Project1.cbproj=C:\des\bcb2010\proyectos\pdv\src\pdv.cbproj</Transaction>
+    <Transaction>2019/09/22 00:37:55.815.cpp,C:\des\bcb2010\proyectos\pdv\src\principal\PrincipalForm.cpp=C:\des\bcb2010\proyectos\pdv\src\principal\PrincipalU.cpp</Transaction>
+    <Transaction>2019/09/22 00:37:55.815.h,C:\des\bcb2010\proyectos\pdv\src\principal\PrincipalForm.h=C:\des\bcb2010\proyectos\pdv\src\principal\PrincipalU.h</Transaction>
+    <Transaction>2019/09/22 00:37:55.815.dfm,C:\des\bcb2010\proyectos\pdv\src\principal\PrincipalForm.dfm=C:\des\bcb2010\proyectos\pdv\src\principal\PrincipalU.dfm</Transaction>
+    <Transaction>2021/08/10 15:58:35.416.cpp,C:\dev\cppbuilder2010\proyectos\pdv\src\Unit1.cpp=C:\dev\cppbuilder2010\proyectos\pdv\src\usuarios\UsuariosU.cpp</Transaction>
+    <Transaction>2021/08/10 15:58:35.416.h,C:\dev\cppbuilder2010\proyectos\pdv\src\Unit1.h=C:\dev\cppbuilder2010\proyectos\pdv\src\usuarios\UsuariosU.h</Transaction>
+    <Transaction>2021/08/10 15:58:35.416.dfm,C:\dev\cppbuilder2010\proyectos\pdv\src\Unit1.dfm=C:\dev\cppbuilder2010\proyectos\pdv\src\usuarios\UsuariosU.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

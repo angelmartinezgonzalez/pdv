@@ -1,0 +1,31 @@
+cd C:\bcb10\libxml2-2.9.0\win32
+
+copiar los archivos de iconv y zlib
+
+al directorio
+libxml2-2.9.0\include
+iconv.h
+zconf.h
+zlib.h
+
+
+copiar al directorio 
+libxml2-2.9.0\win32
+los archivos lib en formato lib no los que solo son para usar dll
+
+
+iconv.lib   ->  ICONVOMF.LIB
+zlib.lib   ->  ZLIBOMF
+
+
+cscript configure.js compiler=bcb iconv=yes zlib=yes debug=yes static=yes prefix=C:\bcb10\libxml2-2.9.0BinlibWin32bcb10 include=C:\bcb10\libxml2-2.9.0BinlibWin32bcb10\include lib=C:\bcb10\libxml2-2.9.0BinlibWin32bcb10\lib
+
+
+make -f Makefile.bcb
+make -f Makefile.bcb install
+
+
+si da error de nano
+agregar 
+C:\Program Files (x86)\Embarcadero\RAD Studio\7.0\lib\ws2_32.lib
+

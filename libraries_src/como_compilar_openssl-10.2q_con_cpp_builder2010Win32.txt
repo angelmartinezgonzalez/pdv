@@ -1,0 +1,11 @@
+cd C:\bcb10\openssl-1.0.2q
+
+perl Configure BC-32  no-asm --prefix=C:\bcb10\openssl-1.0.2qBinlibWin32bcb10
+
+ms\do_nasm
+
+make.exe -f ms\bcb.mak
+
+make.exe -f ms\bcb.mak test
+
+make.exe -f ms\bcb.mak install
