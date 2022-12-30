@@ -1,5 +1,5 @@
 # pdv
-Punto de venta con soporte a cfdi 3.3
+Punto de venta con soporte a cfdi 4.0
 
 
 
